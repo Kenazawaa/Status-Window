@@ -1,0 +1,47 @@
+body {
+  background-image: url('/Miscs/Backgrounds/Aincrad.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%; 
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@font-face {
+  font-family: 'sao_uiregular';
+  src: url('/Miscs/Fonts/saoui-regular-webfont.woff2') format('woff2'),
+       url('/Miscs/Fonts/saoui-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.BorderBox {
+  position: relative;
+}
+.AlertBox {
+  height: 235px;
+  margin-left: 455px;
+  margin-top: 200px;
+}
+.Message {
+  font-family: sao_uiregular;
+  position: absolute;
+  right: 645px;
+  bottom: 191px;
+}
+.Welcome {
+  font-family: sao_uiregular;
+  position: absolute;
+  right: 593px; /* left right */
+  bottom: 115px; /* height */
+}
+.Button_Confirm {
+  position: absolute;
+  height: 35px;
+  margin-left: 540px;
+  margin-top: -65px;
+}
+.Button_Cancel {
+  position: absolute;
+  height: 35px;
+  margin-left: 677px;
+  margin-top: -65px;
+}

@@ -1,0 +1,138 @@
+/* 
+ HERE are basic style formats that you can use in css or <style="color:red;">
+
+style
+background-color
+color
+font-family
+font-size
+text-align
+*/
+
+/* 
+    THESE here are you can use to change text style you can put it like this -- <p> I <b> am kenric </b> P. Tolibas </p>
+
+<b> - Bold text
+<strong> - Important text
+
+<i> - Italic text
+<em> - Emphasized text
+
+<mark> - Marked text or highlights it with yellow
+<small> - Smaller text change smaller
+
+<del> - Deleted text or make a dash line on the word like -k-e-n-
+<ins> - Inserted text or make a word underlined or have a line under the word like _k_e_n_
+
+<sub> - Subscript text or make an undented or bro somthing like Kenric and word under the word
+<sup> - Superscript text or make the word above the word like 15^2 or Kenric^tolibas
+
+*/
+
+/* 
+    This shows padding and on how to use it so first I need to create a button
+
+    p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+
+
+    This shows the SPacing in border
+
+Margin - The CSS margin property defines a margin (space) outside the border.  
+Padding - The CSS padding property defines a padding (space) between the text and the border.
+
+
+
+    This shows the how to link css to html
+
+1.       <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+2.       <link rel="stylesheet" href="/html/styles.css">
+3.       <link rel="stylesheet" href="styles.css">
+
+1.       < style > </style>
+2.       < p style: > </p>
+*/
+body {
+	color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 14pt;
+    background-color: #09131b;
+    /*
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+}
+
+button {
+    background-color: cyan;
+}
+
+.theheading{
+    background-color: aquamarine;
+}
+
+#lawlll {
+    background-color: blue;
+}
+
+#test {
+  width: 250px;
+  height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  border: 1px navy solid;  /* outer stroke */
+  outline: 1px navy solid;  /* inner stroke */
+  outline-offset: -2px;  /* negative border width + outline width */
+}
+
+/*
+    This thing here are for hovering into the linkable link color I might test this in image and gifs
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+  ORRRR
+
+  <style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+
+
+  */
+  
